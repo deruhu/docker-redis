@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150120
-MAINTAINER sameer@damagehead.com
+FROM ubuntu
+MAINTAINER sebastian.noack@fh-kiel.de
 
 RUN apt-get update \
  && apt-get install -y redis-server \
