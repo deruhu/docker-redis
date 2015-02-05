@@ -16,6 +16,6 @@ RUN chmod 755 /start
 
 EXPOSE 6379
 
-VOLUME ["/var/lib/redis"]
-VOLUME ["/run/redis"]
+#VOLUME ["/var/lib/redis"]
+#VOLUME ["/run/redis"]
 CMD ["/start"]
